@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <attr name="normal_line_color" format="color" />
+        <attr name="passed_line_color" format="color" />
+        <attr name="line_height" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="line_bottom_margin" format="dimension" />
+        <attr name="margin_left" format="dimension" />
+        <attr name="margin_right" format="dimension" />
+        <attr name="text_bottom_margin" format="dimension" />
+        <attr name="step" format="enum">
+            <enum name="ONE" value="0" />
+            <enum name="TWO" value="1" />
+            <enum name="THREE" value="2" />
+            <enum name="FOUR" value="3" />
+            <enum name="FIVE" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>
